@@ -1,0 +1,247 @@
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: rgb(240, 240, 240);
+  padding: 1.2rem 0rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+nav p {
+  font-size: 2rem;
+  margin: 0px;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+
+nav span {
+  color: orange;
+  margin: 0px 3px;
+}
+
+header {
+  color: rgb(100, 100, 100);
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header h2 {
+  font-size: 1.4rem;
+}
+
+header h3 {
+  font-size: 1.1rem;
+}
+
+header span {
+  color: orange;
+}
+
+section {
+  text-align: center;
+  padding: 0.5rem 0rem;
+}
+
+#search {
+  display: inline-block;
+}
+
+#search>div {
+  display: flex;
+  padding: 0.2rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 0.8rem;
+  color: rgb(152, 152, 152);
+}
+
+#search input {
+  border: none;
+  outline: none;
+  margin: 0rem 0.5rem;
+  font-size: 1.2rem;
+  height: 2rem;
+  color: rgb(211, 139, 4);
+  width: 80vw;
+}
+
+#categ-head {
+  margin: 1rem 0rem;
+}
+
+#categ-head h1 {
+  color: rgb(100, 100, 100);
+  font-size: 2.2rem;
+  margin: 1rem 1rem;
+}
+
+.categories {
+  margin: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 1px;
+}
+
+.categories p {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgb(191, 191, 191);
+  color: white;
+  padding: 0.5rem 0rem;
+  margin: 0px;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+footer {
+  margin: 2rem 0rem 0rem 0rem;
+  background-color: rgba(255, 166, 0, 0.871);
+}
+
+footer>p {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  padding: 1rem 0rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  margin: 0px;
+  color: rgb(100, 100, 100);
+  font-size: 0.8rem;
+}
+
+footer>div {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+footer>div>p {
+  margin: 0px;
+}
+
+#search-result h1 {
+  color: rgb(100, 100, 100);
+  font-size: 2rem;
+  margin: 1rem 1rem;
+}
+
+#search-result>div>h2 {
+  text-align: center;
+  color: rgb(100, 100, 100);
+  font-size: 1.5rem;
+}
+
+#category-desc {
+  background-color: rgb(42, 219, 219);
+  padding: 1rem;
+  border-radius: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#category-desc>div>p {
+  color: rgb(100, 100, 100);
+  margin: 0px;
+  font-size: 1.2rem;
+}
+
+#category-desc>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal h2 {
+  color: rgb(100, 100, 100);
+}
+
+.modal h3 {
+  color: rgb(100, 100, 100);
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.modal h4 {
+  color: rgb(100, 100, 100);
+  font-size: 1.2rem;
+  margin: 0px;
+}
+
+.modal-bo>div {
+  text-align: center;
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.modal-bo img {
+  height: 40vh;
+  border-radius: 100%;
+}
+
+.modal-bo>div>div {
+  text-align: left;
+  background-color: rgb(250, 169, 19);
+  border-radius: 2rem;
+  color: white;
+  padding: 1.5rem;
+}
+
+.modal-bo>div>div h4 {
+  color: rgb(100, 100, 100);
+  font-size: 1.8rem;
+  margin: 1rem 0rem;
+}
+
+@media (min-width: 1360px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (min-width: 890px) and (max-width: 1360px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 605px) and (max-width: 890px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 200px) and (max-width: 605px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 410px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.cards p{
+  height: 100%;
+}
