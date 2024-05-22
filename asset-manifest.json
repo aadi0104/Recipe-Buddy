@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Recipe-Buddy/static/css/main.e18bd696.css",
+    "main.js": "/Recipe-Buddy/static/js/main.3f71b501.js",
+    "index.html": "/Recipe-Buddy/index.html",
+    "main.e18bd696.css.map": "/Recipe-Buddy/static/css/main.e18bd696.css.map",
+    "main.3f71b501.js.map": "/Recipe-Buddy/static/js/main.3f71b501.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e18bd696.css",
+    "static/js/main.3f71b501.js"
+  ]
+}
